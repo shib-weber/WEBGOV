@@ -49,7 +49,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 70vh;
-    text-align: center;
+    text-align: left;
 }
 #post-display {
     width: 80%;
@@ -65,4 +65,74 @@ body {
     padding: 10px;
     border: 1px solid black;
     overflow-y: auto;
+}
+.box2{
+    top: 0%;
+    position: absolute;
+    margin-left: 33rem;
+    width: 300px;
+    height: 35vh;
+    transform: scale(0.1);
+    background-color: aliceblue;
+    color: black;
+    font: bold;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0 , 2);
+    visibility: hidden;
+    transition: 2s;
+    transition-property: all;
+}
+.bb{
+    margin-left: 4rem;
+    display: flex;
+    gap: 3rem;
+}
+.box2 #f1{
+    border-radius: 1rem;
+    background-color: green;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: black;
+    font-size: 12px;
+}
+.box2 #f2{
+    border-radius: 1rem;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: black;
+    font-size: 12px;
+}
+.box2 #f1:hover{
+    cursor: pointer;
+    border-color: lightgreen;
+}
+.box2 #f2:hover{
+    cursor: pointer;
+    border-color: lightgreen;
+}
+.box2 img{
+    margin-top: -2rem;
+    height: 5rem;
+    width: 5rem;
+    margin-left: 0rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0 , 2);
+}
+.pop_up1{
+    top: 30%;
+    visibility: visible;
+    transform: scale(1);
+    
+}
+.right{
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+}
+.left{
+    align-items: left;
+    justify-content: left;
+    text-align: left;
 }

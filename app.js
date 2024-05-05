@@ -31,5 +31,6 @@ a.onclick = () =>{
 c.forEach((button1) =>{
     button1.addEventListener("click",() =>{
         location.href="page1.html";
+        
     })
 })
