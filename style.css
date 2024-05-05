@@ -1,0 +1,148 @@
+body{
+    border: 297*210;
+    background-color:skyblue;
+    color:black
+}
+.box{
+    top: 0%;
+    position: absolute;
+    margin-left: 33rem;
+    width: 300px;
+    height: 35vh;
+    transform: scale(0.1);
+    background-color: aliceblue;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0 , 2);
+    visibility: hidden;
+    transition: 2s;
+    transition-property: all;
+}
+.pop_up{
+    top: 30%;
+    visibility: visible;
+    transform: scale(1);
+    
+}
+.rest1{
+    #bt1,#signUp,#login,#guest,#bt,#im,#info{
+        visibility: hidden;
+    }
+}
+
+.box img{
+    margin-top: -2rem;
+    height: 5rem;
+    width: 5rem;
+    margin-left: 0rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0 , 2);
+}
+.box #cb{
+    border-radius: 1rem;
+    background-color: green;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: black;
+    font-size: 12px;
+}
+.box #cb:hover{
+    cursor: pointer;
+    border-color: lightgreen;
+}
+#bt1{
+    position: relative;
+    margin-top:1rem;
+    border-radius: 1rem;
+    background-color: violet;
+    color:black ;
+    margin-left: 75rem;
+    font-size: medium;
+    font:bold;
+    height: 2rem;
+}
+#bt{
+    margin-top:1rem;
+    border-radius: 1rem;
+    background-color: violet;
+    color:black ;
+    margin-left: 75rem;
+    font-size: medium;
+    font:bold;
+    height: 2rem;
+}
+#bt:hover{
+    cursor:pointer;
+    border-color: red;
+}
+
+#bt1:hover{
+    cursor:pointer;
+    border-color: red;
+}
+
+.white{
+    background-color: skyblue;
+    color: black;
+    #bt1,#signUp,#login,#guest,#bt{
+        background-color: violet;
+        color:black
+    }
+    #post-display,#post-input{
+        border: 1px solid black;
+    }
+}
+
+.black{
+    background-color: black;
+    color: skyblue;
+    #bt1,#signUp,#login,#guest,#bt{
+        background-color:skyblue;
+        color: black;
+        
+    }
+    #post-display,#post-input{
+        border: 1px solid skyblue;
+    }
+}
+#info{
+text-align: center;
+}
+
+.button1 {
+    display: flex;
+    justify-content:center;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+
+#signUp:hover{
+    cursor:pointer;
+    border-color: red;
+}
+#login:hover{
+    cursor:pointer;
+    border-color: red;
+}
+#guest:hover{
+    cursor:pointer;
+    border-color: red;
+}
+#signUp, #login, #guest{
+    border-radius: 1rem;
+    background-color: violet;
+    color:black ;
+    font-size: medium;
+    font:bold;
+    height: 3rem;
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin-top: 2rem;
+    border-radius:30% ;
+    margin-left:33rem;
+    
+}
+
