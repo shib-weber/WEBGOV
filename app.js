@@ -8,7 +8,7 @@ ac.onclick=()=>{
     b.classList.remove("rest1");
 }
 let a =document.querySelector("#bt1");
-let c=document.querySelectorAll(".button1");
+let c=document.querySelector("#guest");
 
 let m="w";
 localStorage.setItem("mode", m);
@@ -28,9 +28,14 @@ a.onclick = () =>{
         localStorage.setItem("mode", m);
     }
 }
-c.forEach((button1) =>{
-    button1.addEventListener("click",() =>{
-        location.href="page1.html";
-        
-    })
+c.addEventListener("click",()=>{
+    location.href="page1.html"
+})
+let d=document.querySelector("#signUp");
+let e=document.querySelector("#login");
+d.addEventListener("click",()=>{
+    location.href="sign.html"
+})
+e.addEventListener("click",()=>{
+    location.href="sign.html"
 })
